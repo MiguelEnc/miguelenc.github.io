@@ -32,6 +32,10 @@
   padding-top: 13px;
 }
 
+.flow-text {
+	text-align: justify;
+}
+
 #sidebar-title {
 	margin-top: 0px;
 	font-weight: 400;
