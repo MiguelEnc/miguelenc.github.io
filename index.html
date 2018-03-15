@@ -13,18 +13,36 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <!--materialize.css-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
   
   <body>
     <!-- Navbar-->
-    <nav class="show-on-medium-and-down hide-on-large-only brown lighten-1">
+    <nav class="show-on-medium-and-down hide-on-large-only white z-depth-1" style="height:100%;">
       <div class="nav-wrapper">
-        <div id="nav-logo">
-          <p style="font-size: 20px;">Miguel Encarnacion</p>
-          <p style="font-size: 12px;">Junior Web Developer</p>
+        
+        <!-- Profile info -->
+        <div id="profile-card">
+          <img src="img/profile-picture.jpg" id="profile-picture">
+          
+          <div class="row" id="nav-social-icons">
+            <a class="btn social" href="#"><i class="fas fa-envelope"></i></a>
+            <a class="btn social" href="#"><i class="fab fa-github"></i></a>
+            <a class="btn social" href="#"><i class="fab fa-codepen"></i></a>
+            <a class="btn social" href="#"><i class="fab fa-facebook"></i></a>
+            <a class="btn social" href="#"><i class="fab fa-linkedin"></i></a>
+          </div>
         </div>
-        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        
+        <div class="z-depth-2" style="height:6.2vh;">
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+          <div id="profile-name">
+            <h5 class="header">Miguel Encarnacion</h5>
+            <h6 class="header">Junior Web Developer</h6>
+          </div>
+        </div>
+        
         <div class="side-nav collection" id="mobile-demo">
           <a href="#" class="collection-item waves-effect">About</a>
           <a href="#" class="collection-item waves-effect">Skills</a>
@@ -40,7 +58,7 @@
     <aside class="hide-on-med-and-down">
       <ul class="side-nav fixed" style="transform: translateX(0%);">
         <div>
-          <img src="http://thumb7.shutterstock.com/display_pic_with_logo/4473031/518740744/stock-vector-default-avatar-profile-icon-grey-photo-placeholder-518740744.jpg" style="max-width:100%;height:auto;">
+          <img src="img/profile-picture.jpg" class="responsive-img">
         </div>
         <div>
           <h5 class="center-align">Miguel Encarnacion</h5>
@@ -59,13 +77,6 @@
     
     
     <main>
-      <!-- Profile Picture-->
-      <div class="show-on-medium-and-down hide-on-large-only" style="margin: 50px 0px;">
-        <div class="center-align">
-          <img src="http://thumb7.shutterstock.com/display_pic_with_logo/4473031/518740744/stock-vector-default-avatar-profile-icon-grey-photo-placeholder-518740744.jpg" class="responsive-img">
-        </div>
-      </div>
-      
       <!-- About Me section-->
       <section id="about-section">
         <div class="section-tittle">
@@ -82,7 +93,6 @@
           Phasellus consectetur lorem erat, auctor porta magna pretium ac.</p>
         </div>
       </section>
-      
     </main>
     
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>

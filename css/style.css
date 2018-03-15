@@ -1,5 +1,5 @@
 .side-nav {
-	width: 190px;
+	width: 250px;
 }
 
 #nav-logo {
@@ -9,6 +9,10 @@
 	display: block;
   height: 100%;
   width: 100%;
+}
+
+.button-collapse, #nav-logo {
+	color: #8d6e63;
 }
 
 .collection a.collection-item {
@@ -34,6 +38,46 @@
 
 .flow-text {
 	text-align: justify;
+	margin-top: 2em;
+}
+
+#profile-card {
+	text-align: center;
+	height: 27vh;
+}
+
+#profile-picture {
+	height: 20vh;
+	margin-top: 2vh;
+}
+
+#profile-name {
+	color: #8d6e63;
+	text-align: center;
+	position: relative;
+  left: -5%;
+  top: 20%;
+}
+
+#nav-social-icons {
+	margin-top: -3vh;
+}
+
+.social {
+	color: #8d6e63;
+  background-color: white;
+  padding: 0 6px;
+  box-shadow: none;
+}
+
+.social:hover {
+	background-color: white;
+	box-shadow: none;
+}
+
+#profile-name h5 {
+	font-size: 1.50rem;
+  line-height: 60%;
 }
 
 #sidebar-title {
@@ -42,7 +86,13 @@
 }
 
 @media only screen and (min-width: 993px) {
-    main {
-        margin-left: 190px;
-    }
+	main {
+    margin-left: 250px;
+  }
+}
+
+@media only screen and (min-width: 601px){
+	.social i {
+    line-height: 20px !important;
+	}
 }
