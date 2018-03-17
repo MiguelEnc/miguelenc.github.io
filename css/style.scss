@@ -2,7 +2,13 @@ $brown: #8d6e63;
 $orange: #ffab40;
 
 .side-nav {
-	width: 250px;
+	width: 260px;
+	padding-bottom: 0;
+}
+
+nav {
+  height: 100%;
+  overflow-y: none;
 }
 
 #nav-logo {
@@ -21,7 +27,7 @@ $orange: #ffab40;
 .collection-item {
 	color: $brown !important;
 	font-weight: 500;
-	padding: 20px 30px !important;
+	padding: 2vh 30px !important;
 }
 
 .section-tittle {
@@ -84,9 +90,21 @@ $orange: #ffab40;
 	box-shadow: none;
 }
 
-#sidebar-title {
-	margin-top: 0px;
-	font-weight: 400;
+#sidebar-name {
+  height: 60px;
+  
+  h5 {
+    margin: 5px auto;
+  }
+  
+  p{
+    margin: 5px auto;
+    font-weight: 400;
+  }
+}
+
+.medium {
+	height: 360px !important;
 }
 
 .card-action a {

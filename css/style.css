@@ -1,5 +1,10 @@
 .side-nav {
-  width: 250px; }
+  width: 260px;
+  padding-bottom: 0;}
+
+nav {
+  height: 100%;
+  overflow-y: none; }
 
 #nav-logo {
   text-align: center;
@@ -15,7 +20,7 @@
 .collection-item {
   color: #8d6e63 !important;
   font-weight: 500;
-  padding: 20px 30px !important; }
+  padding: 2vh 30px !important; }
 
 .section-tittle {
   background-color: #8d6e63;
@@ -63,9 +68,17 @@
   background-color: white;
   box-shadow: none; }
 
-#sidebar-title {
-  margin-top: 0px;
-  font-weight: 400; }
+#sidebar-name {
+  height: 60px; }
+  #sidebar-name h5 {
+    margin: 5px auto; }
+  #sidebar-name p {
+    margin: 5px auto;
+    font-weight: 400; }
+
+.medium {
+	height: 360px !important;
+}
 
 .card-action a {
   text-transform: none !important; }
