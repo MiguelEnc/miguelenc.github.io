@@ -1,6 +1,6 @@
 .side-nav {
   width: 260px;
-  padding-bottom: 0;}
+  padding-bottom: 0; }
 
 nav {
   height: 100%;
@@ -77,14 +77,22 @@ nav {
     font-weight: 400; }
 
 .medium {
-	height: 360px !important;
-}
+  height: 360px !important; }
 
 .card-action a {
   text-transform: none !important; }
+.card-action p {
+  margin: 0; }
 
 .card-action a:hover {
   color: #ffab40 !important; }
+
+.horizontal .card-image {
+  height: 150px;
+  width: 150px; }
+
+.experience-card {
+  margin: 8vh auto; }
 
 @media only screen and (min-width: 993px) {
   main {

@@ -97,7 +97,7 @@ nav {
     margin: 5px auto;
   }
   
-  p{
+  p {
     margin: 5px auto;
     font-weight: 400;
   }
@@ -107,12 +107,26 @@ nav {
 	height: 360px !important;
 }
 
-.card-action a {
-	text-transform: none !important;
+.card-action {
+  a {
+	  text-transform: none !important;
+  }
+  p {
+    margin: 0;
+  }
 }
 
 .card-action a:hover {
 	color: $orange !important;
+}
+
+.horizontal .card-image {
+  height: 150px;
+  width: 150px;
+}
+
+.experience-card {
+  margin: 8vh auto;
 }
 
 @media only screen and (min-width: 993px) {
