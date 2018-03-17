@@ -1,98 +1,83 @@
 .side-nav {
-	width: 250px;
-}
+  width: 250px; }
 
 #nav-logo {
-	text-align: center;
+  text-align: center;
   position: absolute;
-	line-height: 0px;
-	display: block;
+  line-height: 0px;
+  display: block;
   height: 100%;
-  width: 100%;
-}
+  width: 100%; }
 
 .button-collapse, #nav-logo {
-	color: #8d6e63;
-}
+  color: #8d6e63; }
 
-.collection a.collection-item {
-	color: #8d6e63;
-	font-weight: 500;
-}
-
-.collection .collection-item {
-	padding: 20px 30px;
-}
+.collection-item {
+  color: #8d6e63 !important;
+  font-weight: 500;
+  padding: 20px 30px !important; }
 
 .section-tittle {
-	background-color: #8d6e63;
-	color: white;
-  height: 5em;
-}
-
-.section-tittle h3 {
-	margin-top: 0px;
-	font-weight: 300;
-  padding-top: 13px;
-}
+  background-color: #8d6e63;
+  color: white;
+  height: 5em; }
+  .section-tittle h3 {
+    margin-top: 0px;
+    font-weight: 300;
+    padding-top: 13px; }
 
 .flow-text {
-	text-align: justify;
-	margin-top: 2em;
-}
+  text-align: justify;
+  margin: 8vh auto; }
 
 #profile-card {
-	text-align: center;
-	height: 27vh;
-}
+  text-align: center;
+  height: 27vh; }
 
 #profile-picture {
-	height: 20vh;
-	margin-top: 2vh;
-}
+  height: 20vh;
+  margin-top: 2vh; }
 
 #profile-name {
-	color: #8d6e63;
-	text-align: center;
-	position: relative;
+  color: #8d6e63;
+  text-align: center;
+  position: relative;
   left: -5%;
-  top: 20%;
-}
+  top: 20%; }
+  #profile-name h5 {
+    font-size: 1.50rem;
+    line-height: 60%; }
+  #profile-name h6 {
+    line-height: 70%; }
 
 #nav-social-icons {
-	margin-top: -3vh;
-}
+  margin-top: -3vh; }
 
 .social {
-	color: #8d6e63;
+  color: #8d6e63;
   background-color: white;
-  padding: 0 6px;
-  box-shadow: none;
-}
+  padding: 0 10px;
+  box-shadow: none; }
 
 .social:hover {
-	background-color: white;
-	box-shadow: none;
-}
-
-#profile-name h5 {
-	font-size: 1.50rem;
-  line-height: 60%;
-}
+  background-color: white;
+  box-shadow: none; }
 
 #sidebar-title {
-	margin-top: 0px;
-	font-weight: 400;
-}
+  margin-top: 0px;
+  font-weight: 400; }
+
+.card-action a {
+  text-transform: none !important; }
+
+.card-action a:hover {
+  color: #ffab40 !important; }
 
 @media only screen and (min-width: 993px) {
-	main {
-    margin-left: 250px;
-  }
-}
+  main {
+    margin-left: 250px; } }
+@media only screen and (min-width: 601px) {
+  .social i {
+    line-height: 20px !important; } }
 
-@media only screen and (min-width: 601px){
-	.social i {
-    line-height: 20px !important;
-	}
-}
+/*# sourceMappingURL=style.css.map */

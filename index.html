@@ -9,9 +9,7 @@
     
     <title>Miguel Encarnacion | Junior Javascript Web Developer</title>
     
-    <!--Google Icon Font-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <!--materialize.css-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
     <link rel="stylesheet" href="css/style.css">
@@ -27,11 +25,11 @@
           <img src="img/profile-picture.jpg" id="profile-picture">
           
           <div class="row" id="nav-social-icons">
-            <a class="btn social" href="#"><i class="fas fa-envelope"></i></a>
-            <a class="btn social" href="#"><i class="fab fa-github"></i></a>
-            <a class="btn social" href="#"><i class="fab fa-codepen"></i></a>
-            <a class="btn social" href="#"><i class="fab fa-facebook"></i></a>
-            <a class="btn social" href="#"><i class="fab fa-linkedin"></i></a>
+            <!--<a class="btn social" target="_blank" href="#"><i class="fas fa-envelope"></i></a>-->
+            <a class="btn social" target="_blank" href="https://github.com/MiguelEnc/"><i class="fab fa-github"></i></a>
+            <a class="btn social" target="_blank" href="https://codepen.io/MiguelEnc/"><i class="fab fa-codepen"></i></a>
+            <a class="btn social" target="_blank" href="https://www.facebook.com/miguel.encarnacion.7"><i class="fab fa-facebook"></i></a>
+            <a class="btn social" target="_blank" href="https://www.linkedin.com/in/miguelenc/"><i class="fab fa-linkedin"></i></a>
           </div>
         </div>
         
@@ -56,7 +54,7 @@
   
     <!-- Side Menu-->
     <aside class="hide-on-med-and-down">
-      <ul class="side-nav fixed" style="transform: translateX(0%);">
+      <ul class="side-nav fixed">
         <div>
           <img src="img/profile-picture.jpg" class="responsive-img">
         </div>
@@ -91,6 +89,138 @@
           massa bibendum dui, sed lobortis ex diam quis elit. Sed sit amet urna ac enim bibendum egestas vel sed augue. Orci 
           varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut et malesuada mi, eu semper nisl. 
           Phasellus consectetur lorem erat, auctor porta magna pretium ac.</p>
+        </div>
+      </section>
+      
+      <!-- Portfolio section -->
+      <section id="portfolio-section">
+        <div class="section-tittle">
+          <h3 class="center-align">Portfolio</h3>
+        </div>
+        <div class="container" style="margin-top:5vh;">
+          <div class="row">
+            <div class="col s12 m6 l4">
+              
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <!--<img class="activator" src="img/.png">-->
+                  <img class="activator" src="img/Tic tac toe.png">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Tic Tac Toe<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-action">
+                  <a target="_blank" href="https://github.com/MiguelEnc/TicTacToe"><i class="fab fa-github"></i> Github</a>
+                  <a target="_blank" href="https://codepen.io/MiguelEnc/pen/jYKgWG"><i class="fab fa-codepen"></i> Codepen</a>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Tic Tac Toe<i class="material-icons right">close</i></span>
+                  <p>This is one of FreeCodeCamp's Advanced Front End Development Projects.</p>
+                  <p>The Minimax Algorithm is used so the computer can play.</p>
+                </div>
+              </div>
+              
+            </div>
+            <div class="col s12 m6 l4">
+              
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="img/calculator.png">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Calculator<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-action">
+                  <a target="_blank" href="https://codepen.io/MiguelEnc/pen/XeXdaj"><i class="fab fa-codepen"></i> Codepen</a>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Calculator<i class="material-icons right">close</i></span>
+                  <p>This is one of FreeCodeCamp's Advanced Front End Development Projects.</p>
+                </div>
+              </div>
+              
+            </div>
+            <div class="col s12 m6 l4">
+              
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="img/weather app.png">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Local Weather<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-action">
+                  <a target="_blank" href="https://codepen.io/MiguelEnc/pen/vmZVar"><i class="fab fa-codepen"></i> Codepen</a>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Local Weather<i class="material-icons right">close</i></span>
+                  <p>This is one of FreeCodeCamp's Intermediate Front End Development Projects.</p>
+                  <p>A extended weather app wich uses OpenWeatherMap's API.</p>
+                </div>
+              </div>
+              
+            </div>
+            <div class="col s12 m6 l4">
+              
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="img/twitch tv.png">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Twitch.tv App<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-action">
+                  <a target="_blank" href="https://codepen.io/MiguelEnc/pen/xrqXOB"><i class="fab fa-codepen"></i> Codepen</a>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Twitch.tv App<i class="material-icons right">close</i></span>
+                  <p>This is one of FreeCodeCamp's Intermediate Front End Development Projects.</p>
+                  <p>A Twitch.tv hub to find channels</p>
+                </div>
+              </div>
+              
+            </div>
+            <div class="col s12 m6 l4">
+              
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="img/wikipedia.png">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Wikipedia Viewer<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-action">
+                  <a target="_blank" href="https://codepen.io/MiguelEnc/pen/mwrbWx"><i class="fab fa-codepen"></i> Codepen</a>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Wikipedia Viewer<i class="material-icons right">close</i></span>
+                  <p>This is one of FreeCodeCamp's Intermediate Front End Development Projects.</p>
+                  <p>A minimalistic Wikipedia articles finder</p>
+                </div>
+              </div>
+              
+            </div>
+            <div class="col s12 m6 l4">
+              
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="img/quotes.png">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Random Quotes<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-action">
+                  <a target="_blank" href="https://codepen.io/MiguelEnc/pen/pPeqOM"><i class="fab fa-codepen"></i> Codepen</a>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Random Quotes<i class="material-icons right">close</i></span>
+                  <p>This is one of FreeCodeCamp's Intermediate Front End Development Projects.</p>
+                  <p>A place to get and share random quotes</p>
+                </div>
+              </div>
+              
+            </div>
+          </div>
         </div>
       </section>
     </main>
