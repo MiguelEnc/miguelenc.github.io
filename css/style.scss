@@ -123,10 +123,22 @@ nav {
 .horizontal .card-image {
   height: 150px;
   width: 150px;
+  
+  img {
+    margin: 0 auto;
+  }
 }
 
-.experience-card {
+.custom-card {
   margin: 8vh auto;
+}
+
+table td {
+  color: $brown;
+  
+  a {
+    color: $orange;
+  }
 }
 
 @media only screen and (min-width: 993px) {

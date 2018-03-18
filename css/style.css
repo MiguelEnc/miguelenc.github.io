@@ -90,9 +90,16 @@ nav {
 .horizontal .card-image {
   height: 150px;
   width: 150px; }
+  .horizontal .card-image img {
+    margin: 0 auto; }
 
-.experience-card {
+.custom-card {
   margin: 8vh auto; }
+
+table td {
+  color: #8d6e63; }
+  table td a {
+    color: #ffab40; }
 
 @media only screen and (min-width: 993px) {
   main {
