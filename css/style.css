@@ -3,7 +3,19 @@ section {
   padding: 0 !important; }
 
 main, #profile-card {
-  background-color: #eef4f9; }
+  position: relative;
+  z-index: 1; }
+
+main:before, #profile-card:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url("../img/tapiz.jpg");
+  opacity: .2; }
 
 .button-collapse {
   height: 7vh !important;
@@ -64,8 +76,9 @@ nav {
   height: 30vh; }
 
 #profile-picture {
-  height: 20vh;
-  margin-top: 2vh; }
+  height: 25vh;
+  margin-top: 2.5vh;
+  border-radius: 3%; }
 
 #profile-name {
   color: #8d6e63;
