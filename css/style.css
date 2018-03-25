@@ -137,8 +137,16 @@ nav {
 
 table td {
   color: #8d6e63; }
-  table td a {
-    color: #ffab40; }
+
+.orance-text {
+  color: #ffab40; }
+
+.skill-icon {
+  text-align: center;
+  height: 17vh;
+  margin: 10px 0px; }
+  .skill-icon img {
+    height: 15vh; }
 
 @media only screen and (min-width: 993px) {
   main {

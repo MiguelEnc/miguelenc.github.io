@@ -182,9 +182,19 @@ nav {
 
 table td {
   color: $brown;
+}
+
+.orance-text {
+  color: $orange;
+}
+
+.skill-icon {
+  text-align: center;
+  height: 17vh;
+  margin: 10px 0px;
   
-  a {
-    color: $orange;
+  img {
+    height: 15vh;
   }
 }
 

@@ -1,6 +1,6 @@
 $(document).ready(function(){
   $(".button-collapse").sideNav();
   $('.scrollspy').scrollSpy({
-      scrollOffset: -10
+      scrollOffset: 0
   }); 
 });
