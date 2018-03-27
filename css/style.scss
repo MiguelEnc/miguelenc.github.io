@@ -1,6 +1,5 @@
 $brown: #8d6e63;
 $orange: #ffab40;
-$lightBlue: #eef4f9;
 
 section {
   min-height: 99vh;
@@ -25,7 +24,6 @@ main:before, #profile-card:before {
 }
 
 .button-collapse {
-  height: 7vh !important;
   color: $brown;
 }
 
@@ -49,7 +47,6 @@ nav {
 }
 
 .bitton-collapse {
-  height: 7vh;
   color: $brown;
   z-index: 999;
   background-color: white;
@@ -106,8 +103,8 @@ nav {
 	color: $brown;
 	text-align: center;
 	position: relative;
-  left: -5%;
-  top: 20%;
+  left: -4%;
+  margin: 0 auto;
   
   h5 {
   	font-size: 1.50rem;
@@ -118,23 +115,6 @@ nav {
   h6 {
     line-height: 70%;
   }
-}
-
-#nav-social-icons {
-	margin-top: -5vh;
-  margin-bottom: 0;
-}
-
-.social {
-	color: $brown;
-  background-color: $lightBlue;
-  padding: 0 10px;
-  box-shadow: none;
-}
-
-.social:hover {
-	background-color: $lightBlue;
-	box-shadow: none;
 }
 
 #sidebar-name {
@@ -204,13 +184,13 @@ table td {
   }
 }
 
-@media only screen and (min-width: 601px){
-	.social i {
-    line-height: 20px !important;
-	}
+// @media only screen and (min-width: 601px){
+// 	.social i {
+//     line-height: 20px !important;
+// 	}
 	
-	nav a.button-collapse i {
-    line-height: 45px;
-    height: 7vh;
-	}
-}
+// 	nav a.button-collapse i {
+//     line-height: 45px;
+//     height: 7vh;
+// 	}
+// }
