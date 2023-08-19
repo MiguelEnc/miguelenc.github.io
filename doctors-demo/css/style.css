@@ -205,8 +205,9 @@
 
 /*** About ***/
 .about {
-    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/about.jpg) left center no-repeat;
-    background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/male-doctor-left-1080.jpg) left center no-repeat;
+    background-size: contain;
+    /* background-size: cover; */
 }
 
 .btn-play {
